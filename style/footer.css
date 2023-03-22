@@ -1,0 +1,84 @@
+.footer{
+    padding: 60px 0;
+}
+.footer-container{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap:60px 30px;
+
+}
+.footer-column{
+    width: calc(25% - 30px);
+}
+.contacts-logo{
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.contacts-logo-primary{
+    color: var(--color-primary);
+}
+.contacts-deskription{
+    font-size: 18px;
+line-height: 140%;
+opacity: 0.6;
+margin-bottom: 26px;
+}
+.contacts-phone{
+    display: block; 
+    font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+margin-bottom: 10px;
+}
+.contacts-mail{
+  display: block;  
+  font-size: 18px;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+.contacts-mail:last-child{
+    margin-bottom: 0;
+  }
+  .subnav-link{
+    font-size: 18px;
+line-height: 140%;
+
+  }
+  .subnav-item:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .regulation-age{
+height: 45px;
+margin-bottom: 20px;
+  }
+  .regulation-offer{
+font-size: 16px;
+line-height: 140%;
+opacity: 0.6;
+  }
+.partners-me{
+    height: 45px;
+    margin-bottom: 20px;
+}
+  .partners-discription{
+    font-size: 16px;
+    line-height: 140%;
+    opacity: 0.6;
+  }
+
+  @media(max-width:1000px){
+    .footer-column{
+        width: calc(50% - 30px);
+    }
+  }
+   @media(max-width:480px){
+    .footer-column{
+        width: 100%;
+    }
+  }

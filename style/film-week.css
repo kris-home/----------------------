@@ -1,0 +1,118 @@
+.film-week {
+    padding: 60px 0;
+}
+
+.film-week-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.film-week-poster {
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.film-week-title {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    margin-right: 36px;
+}
+
+.film-week-tagline {
+    font-size: 18px;
+    line-height: 140%;
+    opacity: 0.6;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.film-week-watch-btn {
+    width: 375px;
+    height: 72px;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: var(--color-second);
+    border-radius: 6px;
+    border: none;
+    color: var(--color-text);
+}
+.film-week-watch-btn:hover {
+    box-shadow: 0px 0px 10px var(--color-primary);
+    transition: box-shadow 0.2s;
+  }
+.film-week-watch-trailer {
+    width: 104px;
+    height: 72.62px;
+    background-color: var(--color-second);
+    background-image: url("../img/play.svg");
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.film-week-watch-trailer:hover {
+    box-shadow: 0px 0px 10px var(--color-primary);
+    transition: box-shadow 0.2s;
+  }
+@media (max-width: 1280px) {
+    .film-week-title {
+        margin-right: auto;
+    }
+
+    .film-week-tagline {
+        order: 1;
+        flex-basis: 40%;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .film-week-watch-trailer {
+        order: 1;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .film-week-tagline {
+        order: 0;
+        flex-basis: 100%;
+    }
+
+    .film-week {
+        padding-top: 30px;
+    }
+
+    .film-week-container {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .film-week-watch-btn {
+        font-size: 16px;
+        width: auto;
+        flex-basis: 70%;
+        height: 50px;
+    }
+
+    .film-week-watch-trailer {
+        width: 50px;
+        height: 50px;
+    }
+
+    .film-week-poster {
+        margin-bottom: 0;
+    }
+
+    .film-week-title {
+        font-size: 48px;
+    }
+    .film-week-tagline{
+        font-size: 16px;
+    }
+}

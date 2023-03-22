@@ -1,0 +1,20 @@
+@import "normalize.css";
+@import"fonts.css";
+@import"variables.css";
+@import"basic.css";
+@import"header.css";
+@import"film-week.css";
+@import"other-films.css";
+@import"footer.css";
+@import"navigation.css";
+@import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
+
+
+h1 {
+    font-family: Raleway, sans-serif;
+}
+
+h2 {
+    font-family: Inter, sans-serif;
+}
